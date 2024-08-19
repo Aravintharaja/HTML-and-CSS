@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table,td{
+            margin-left: 70px;
+            margin-top: 50px;
+            width: 20px;
+            height: 50px;
+            border: 2px solid black;
+        }
+        .tr{
+            margin-left: 70px;
+            margin-top: 50px;
+            width: 200px;
+            height: 50px;
+            border: 2px solid black;
+        }
+        input {
+            padding: 8px;
+
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .color1 {
+            background-color: lightblue;
+            width: 950px;
+            height: 1082px;
+            background-size: 100% 100%;
+            margin-left:350px;
+        }
+
+        .color2 {
+            text-align: center;
+            padding-left: 70px;
+            color: rgb(8, 8, 8);
+            width: 900px;
+            margin-left: 300px;
+        }
+
+        .color10 {
+            padding-left: 400px;
+        }
+
+        .color6 {
+            background-color: rgb(250, 247, 247);
+            color: black;
+            border: 2px solid black;
+            height: 20px;
+            width: 100px;
+        }
+
+        .cool {
+            border: 2px solid black;
+            height: 20px;
+            width: 350px;
+            color: rgb(70, 68, 68);
+        }
+
+        .cooll {
+            border: 2px solid black;
+            height: 20px;
+            width: 100px;
+            margin-left: 200px;
+            color: rgb(83, 80, 80);
+        }
+
+        .box {
+            margin-top: 20px;
+            width: 300px;
+        }
+
+        .bord {
+            margin-left: 0px;
+            margin-top: 33px;
+            width: 950px;
+            height: 200px;
+            border-top: 8px solid grey;
+            border-left: 8px solid gray;
+            border-right: 8px solid black;
+            border-bottom: 8px solid black;
+
+        }
+
+        .heading {
+            text-align: center;
+            width: 600px;
+            margin-left: 50px;
+        }
+        .no{
+            border-top: 2px solid black;
+            border-left: 2px solid black;
+            border-right:none;
+            border-bottom: 2px solid black;
+        }
+        .blur{
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="color1">
+        <table class="bord">
+            <form class="formclass">
+                <tr>
+                    <td colspan="2">
+                        <h1 class="blur">Student Registration Form</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" class="box"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Father Name</label>
+                    </td>
+                    <td>
+                        <input type="text" class="box"><br><br>
+                    </td>
+                <tr>
+                    <td>
+                        <label for="">Postal address</label>
+                    </td>
+                    <td>
+                        <input type="text" class="box"><br><br>
+                    </td>
+                <tr>
+                    <td>
+                        <label for="">Personal address</label>
+                    </td>
+                    <td>
+                        <input type="text" class="box"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Gender</label>
+                    </td>
+                    <td class="cool" colspan="2">
+                        <input type="radio" name="gen">Male
+                        <input type="radio" name="gen">Female
+                        <input type="radio" name="gen">Others<br><br>
+                    </td>
+                    </td>
+                <tr>
+                    <td>
+                        <label for="">City</label><br>
+                    </td>
+                    <td>
+                        <select name="" id="" class="hidden">
+                            <option value="">Chennai</option>
+                            <option value="">Coimbatore</option>
+                            <option value="">Trichy</option>
+                        </select><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Course</label><br>
+                    </td>
+                    <td>
+                        <select name="" id="" class="hidden">
+                            <option value="">Python</option>
+                            <option value="">Java</option>
+                            <option value="">C++</option>
+                        </select><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">District</label><br>
+                    </td>
+                    <td>
+                        <select name="" id="" class="hidden">
+                            <option value="">Chennai</option>
+                            <option value="">Coimbatore</option>
+                            <option value="">Trichy</option>
+                        </select><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">State</label><br>
+                    </td>
+                    <td>
+                        <select name="" id="" class="hidden">
+                            <option value="">Tamil Nadu</option>
+                            <option value="">kerala</option>
+                            <option value="">Delhi</option>
+                        </select><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Pin code</label>
+                    </td>
+                    <td>
+                        <input type="text" class="box"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">email id</label>
+                    </td>
+                    <td>
+                        <input type="text" class="box"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">D.O.B</label>
+                    </td>
+                    <td>
+                        <input type="text" class="box"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Mobile No:</label>
+                    </td>
+                    <td>
+                        <input type="Number" class="box" name="" id=""><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="color6">Reset</button>
+                    </td>
+                    <td>
+                        <button class="color6">Submit form</button>
+                    </td>
+                </tr>
+        </table>
+        </form>
+    </div>
+</body>
+
+</html>

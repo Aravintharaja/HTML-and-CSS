@@ -1,0 +1,107 @@
+.border{
+    border: 2px solid none;
+    height: 1900px;
+    background-color:  darkslategray;
+    width: 800px;
+    margin-left:340px;
+}
+.head{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.Head{
+    color:Brown;
+    text-align: center;
+    padding-top: 10px;
+}
+.p1{
+    padding-left: 50px;
+    font-size: larger;
+}
+.iccon{
+    margin-left: 210px;
+}
+.box{
+    border: 2px solid none;
+    height: 1800px;
+    background-color:white;
+    width: 600px;
+    margin-left:100px;
+}
+table {
+    border-collapse: collapse;
+    margin-left:25px;
+    width: 550px;
+    height:30px;
+}
+.main{
+    margin-left:25px;
+    width: 550px;
+    height:70px;
+    border: 2px solid none;
+}
+.color2{
+    border:2px solid none;
+    background-color:rgb(152, 149, 149);
+    text-align: center;
+    height:30px;
+}
+.color3{
+    border:2px solid none;
+    text-align: center;
+    height:30px;
+}
+.head5{
+    text-align: center;
+    border: 2px solid none;
+    height: 60px;
+    width: 100px;
+    margin-left: 50px;
+    float: left;
+}
+.head6{
+    text-align: center;
+    border: 2px solid none;
+    height: 60px;
+    width: 100px;
+    margin-left:70px;
+    float: left;
+}
+.head7{
+    text-align: center;
+    border: 2px solid none;
+    height: 60px;
+    width: 100px;
+    margin-left:90px;
+    float: left;
+}
+.code{
+    border-top: 2px solid gray;
+    width: 400px;
+    margin-left: 100px;
+}
+.last{
+    text-align: center;
+    color: white;
+}
+.change{
+    animation-name:colorchange ;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+}
+@keyframes colorchange{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: blueviolet;
+    }
+    50%{
+        color: black;
+
+    }
+    100%{
+        color: aqua;
+    }
+}
